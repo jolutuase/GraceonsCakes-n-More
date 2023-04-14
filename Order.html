@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="shortcut icon" href="Pictures/Graceon's stickers-1.jpg" type="image/x-icon" class="logo">
+    <title>Place an Order</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <!--logo-->
+                <!--hamburger--> 
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!--navigtion-->
+                <ul class="nav-ul">
+                    <i class=" fas fa-times close"></i>
+                    <li><a href="About_Us.html" class="nav-link">OUR SERVICES</a></li>
+                    <li><a href="Contact_us.html" class="nav-link">CONTACT US</a></li>
+                    <li><a href="Pictures.html" class="nav-link">PICTURES</a></li>
+                    <li><a href="Menu.html" class="nav-link">MENU</a></li>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li>
+                        <form role="search" class="search" action="Menu.html" method="get">
+                        <link rel="stylesheet" href="Search.css">
+                        <div class="icon"></div>
+                        <div class="input">
+                            <input type="search" name="search_query=" placeholder="Search..." id="mysearch"></input>
+                        </div>
+                        <input type="submit"><i class="fas fa-search search"></i></input>
+                        <script src="Search.js"></script>
+                    </form>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- main page -->
+    <form action="Home.html" method="post" class="form"> <br> 
+        <p>Your Postcode and Address</p>
+        <input type="text" name="" id=""> <br> <br>
+        <p>Date</p>
+        <input type="date" name="" id=""> <br> <br>
+        <p>First Name</p>
+        <input type="text" placeholder="First Name"> <br> <br>
+        <p>Last Name</p>
+        <input type="text" placeholder="Last Name"> <br>  <br>
+        <p>Phone Number</p>
+        <input type="tel"  placeholder="Phone Number"> <br> <br>
+        <p>Gender</p>
+        <input type="radio" name="Gender" value="MALE" id="man"> Male <br>
+        <input type="radio" name="Gender" value="FEMALE" id="woman"> Female <br>
+        <button  formmethod="post" type="submit">Submit</button><br> <br>
+        <button type="reset">Reset</button> <br>
+        </form>
+        <h3>07823819996</h3>
+        <a href="Home.html">BACK</a> 
+</body>
+</html>

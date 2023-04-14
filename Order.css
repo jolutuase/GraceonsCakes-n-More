@@ -1,0 +1,119 @@
+:root{
+    --blue: #0928b4;
+    --white: #fff; 
+    --black: #000;
+    --pink: #e9204f;
+    --aqua: #00ffff;
+    --chocolate: #d2691e;
+    --dodgerblue: #1e90ff;
+    --purple: #800080;
+    --yellow: #ff0;
+    --green: #008000;
+    --red: #ff0000;
+    --gold: #ffd700;
+    --gray: rgba(26, 26, 21, 0.87);
+    --darkgreen: #006400;
+    --crimson:#dc143c;
+    --coral:#ff7f50;
+    --orchid:#da70d6;
+    --olive:#808000;
+}
+header{
+    width: 100%;
+    background: var(--blue);
+    padding: 5px 0;
+}
+nav{
+    width:100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem, 1.5rem
+}
+.nav-ul{
+    display: flex;
+    color: var(--yellow);
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    list-style: none;
+}
+.nav-ul li a{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight:600; 
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 0;
+    margin-right: 4rem;
+    color: var(--yellow);
+    word-spacing: 1fr;
+}
+.nav-link,.current{
+    position: relative;
+}
+.nav-link::before.current{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    width: 50%;
+    background-color: var(--green);
+    transform: scaleX(6);
+    transform-origin: left;
+    transition: transform 0.6s;
+}
+.current::before{
+    transform: scaleX(1);
+}
+.nav-link:hover::before{
+    transform: scaleX(1);
+}
+body{
+    background-image: url(Pictures/Graceon\'s\ stickers-1.jpg);
+    color: #800080;
+    text-decoration: solid;
+}
+
+/*MEDIA QUERY FOR DEVICE BELOW 600PX*/
+@media screen and (max-width: 600px){
+    .nav-ul{
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    }
+    .nav-ul li{
+      width: 100%;
+      text-align: center;
+      border: top 1px solid rgba(255, 255, 255, 0.4);
+    }
+      .nav-ul li :last-child {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      } 
+      .nav-ul li:hover{
+          background-color: rgba(0, 0, 0, 0.1);
+      } 
+      .nav-link::before,.current{
+          display: none;
+      }
+      .hamburger{
+          display: block;
+      }
+      .nav-ul .close{
+          display: block;
+      }
+      .show{
+          display: flex;
+      }
+      .hide{
+          display:  none;
+      }
+      .search{
+          display: block;
+      }
+      .contact{
+          flex-direction: column;
+      }
+  }

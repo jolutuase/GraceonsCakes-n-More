@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Media_query.css">
+    <link rel="shortcut icon" href="Pictures/Graceon's stickers-1.jpg" type="image/x-icon" class="image">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <!--hamburger--> 
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!--navigtion-->
+                <ul class="nav-ul">
+                    <i class=" fas fa-times close"></i>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="Contact_us.html" class="nav-link">CONTACT US</a></li>
+                    <li><a href="Pictures.html" class="nav-link">PICTURES</a></li>
+                    <li><a href="About_Us.html" class="nav-link">OUR SERVICES</a></li>
+                    <li><a href="Order.html" class="nav-link">PLACE AN ORDER</a></li>
+                    <li>
+                        <form role="search" class="search" action="Menu.html" method="get">
+                        <link rel="stylesheet" href="Search.css">
+                        <div class="icon"></div>
+                        <div class="input">
+                            <input type="search" name="search_query=" placeholder="Search..." id="mysearch"></input>
+                        </div>
+                        <input type="submit"><i class="fas fa-search search"></i></input>
+                        <script src="Search.js"></script>
+                    </form>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <p>You are in Menu</p>
+    <fieldset class="">
+        <table border="1px thick black">
+        <tr> 
+            <p>Menu <br>
+            (Plain)</p>
+            <th>Cake</th>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <th>Vanilla</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+        <tr>
+            <th>Chocolate</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+        <tr>
+            <th>Red Velvet</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <table border="1px thick black">
+        <tr> <p>Menu <br>
+            (Decorated:
+            Buttercream)</p>
+            <th>Cake</th>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <th>Vanilla</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+        <tr>
+            <th>Chocolate</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+        <tr>
+            <th>Red Velvet</th>
+            <th>9in</th>
+            <th>£10.00</th>
+        </tr>
+    </table>
+    <box class="box">
+        <marquee behavior="fast"  direction="right">hello</marquee>
+    </box>
+    <!-- <i class="op">&aleph;&beth;&gimel;&daleth;&DownArrowUpArrow;</i> -->
+    <script>
+    const icon = document.querySelector(".op");
+    const box = document.querySelector(".box");
+    icon.onclick = function(){
+    box.classList.toggle("active")
+    }
+    // space 
+    const button = document.querySelector(".button");
+    button.onclick = function() {
+        button.classList.toggle(y)
+    }
+    const button = document.querySelector(".button");
+    icon.addEventListener("click",()=>{
+    button.classList.toggle("show");
+    })
+    icon.addEventListener("click",()=>{
+    button.classList.toggle("hide")
+    })
+    </script>
+<script src="Menu.js"></script>    
+</body>
+</html>
