@@ -44,9 +44,9 @@ nav{
     font-size: 1.5rem;
     font-weight:600; 
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 1rem 0;
-    margin-right: 4rem;
+    margin-right: 1.5rem;
     color: var(--yellow);
     word-spacing: 1fr;
 }
@@ -72,9 +72,16 @@ nav{
     transform: scaleX(1);
 }
 body{
-    background-image: url(Pictures/Graceon\'s\ stickers-1.jpg);
+    background-image: url(Pictures/40\ Birthday\ Cake.jpg);
     color: #800080;
     text-decoration: solid;
+}
+.search{
+    border: #000 solid;
+    border: 50%;
+    width: 25%;
+    background-color: #00ffff;
+    color: #fff;
 }
 
 /*MEDIA QUERY FOR DEVICE BELOW 600PX*/

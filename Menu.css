@@ -44,9 +44,9 @@ nav{
     font-size: 1.5rem;
     font-weight:600; 
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 1rem 0;
-    margin-right: 4rem;
+    margin-right: 1.5rem;
     color: var(--yellow);
     word-spacing: 1fr;
 }

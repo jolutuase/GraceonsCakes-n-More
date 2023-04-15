@@ -74,12 +74,12 @@ nav .logo{
 }
 .nav-ul li a{
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight:600; 
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 1rem 0;
-    margin-right: 4rem;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    margin-right: 1.5rem;
     color: var(--yellow);
     word-spacing: 1fr;
 }

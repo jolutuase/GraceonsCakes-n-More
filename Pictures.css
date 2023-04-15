@@ -65,9 +65,9 @@ nav{
     font-size: 1.5rem;
     font-weight:600; 
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 1rem 0;
-    margin-right: 4rem;
+    margin-right: 1.5rem;
     color: var(--yellow);
     word-spacing: 1fr;
 }
@@ -133,16 +133,20 @@ nav{
     height: 7rem;
     background-color: var(--black);
     z-index: 1;
-} */ */
+} */
 .image1{
     grid-row: 1/3;
     grid-column: 1/3;
 }
 .image{
     position: relative;
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
     cursor: pointer;
+}
+.special{
+    width: 100%;
+    height: 100%;
 }
 .image::before{
     position: absolute;
@@ -160,9 +164,9 @@ nav{
     margin-top: 2rem;
     z-index: 1;
 }
-marquee{
-    height: 3fr;
-    width: 3fr;
+.Birthday{
+    width: 80%;
+    height: 60%;
 }
 fieldset{
     background-image: url(Pictures/Graceon\'s\ stickers-1.jpg);
