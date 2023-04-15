@@ -92,6 +92,13 @@ nav{
 .nav-link:hover::before{
     transform: scaleX(1);
 }
+.search{
+    border: #000 solid;
+    border: 50%;
+    width: 25%;
+    background-color: #00ffff;
+    color: #fff;
+}
 /* .intro-card{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
