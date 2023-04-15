@@ -73,7 +73,7 @@ nav{
 }
 body{
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, helvetica;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, helvetica; */
     /* background-image: linear-gradient(to right, #007bff, #d2691e, #800080, #ff0000); */
     background-repeat: no-repeat;
     background-image: url(Pictures/1665940479228.jpg);
@@ -82,15 +82,36 @@ body{
 h1, p{
     margin-left: 30px;
 }
+h2{
+    margin-left: 100px;
+    color: #fff;
+}
 form{
-    margin-left: 30px;
-    cursor: copy;
+    border: #000 solid;
+    border: 50%;
+    width: 25%;
+    background-color: #00ffff;
+    color: #fff;
+}
+.form{
+    margin-left: 500px;
+    border: #fff solid;
+    border: 50%;
+    border-radius: 3%;
+    width: 25%;
+    background-color: #00ffff;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 p{
     margin-left: 5px;
 }
 h3{
     margin-top: 1px;
+    color:#fff;
 }
 button{
     margin-left: 5px;

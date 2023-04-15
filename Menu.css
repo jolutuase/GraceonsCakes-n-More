@@ -72,8 +72,8 @@ nav{
     transform: scaleX(1);
 }
 body{
-    background-image:url(Pictures/1665940479316.jpg);
-}
+    background-image:url(Pictures/Birthday\ Cake\ Choc.jpg);
+} 
 .hamburger,.close,.search{
     font-size: 2.5rem;
     cursor: pointer;
@@ -90,13 +90,19 @@ body{
     padding: 1.5rem 3rem 0 0;
     display: none;
 }
+.search{
+    border: #000 solid;
+    border: 50%;
+    width: 25%;
+    background-color: #00ffff;
+    color: #fff;
+}
 fieldset{
     display: flex;
     flex-direction: row;
     background-color: var(--yellow);
     margin: 20px;
     width: 229px;
-
 } 
 table{
     background-color: var(--purple);
@@ -129,7 +135,7 @@ form{
     border-radius: 30px;
     left: 500px;
 } 
-button.active   
+button.active 
 i{
     cursor: pointer;
     size: 500px;
